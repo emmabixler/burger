@@ -10,3 +10,10 @@ burger_name VARCHAR
     (10) NOT NULL,
 devoured BOOLEAN DEFAULT false
 );
+-- when entered mysql -u root -p says error when password enter. then typed in use mysql;
+
+-- update user set authentication_string=PASSWORD("mynewpassword") where User='root';
+
+-- flush privileges;
+
+-- quit
