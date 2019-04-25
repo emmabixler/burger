@@ -18,3 +18,5 @@ connection.connect(function(err) {
 });
 
 module.exports = connection;
+
+//took me the longest to figure out the connection error, due to password where I had to restart it.
