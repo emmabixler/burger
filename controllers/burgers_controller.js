@@ -7,7 +7,7 @@ var burger = require("../models/burger.js");
 
 //setting up logic
 router.get("/", function(req, res) {
-  burger.selectAll(function(data) {
+  burger.all(function(data) {
     var burgerObject = {
       burger: data
     };
