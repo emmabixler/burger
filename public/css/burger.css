@@ -1,3 +1,5 @@
 body {
-  background-color: lemonchiffon;
+  background: purple;
+  text-align: center;
+  /* background: url("../images/burger.png"); */
 }

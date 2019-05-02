@@ -1,32 +1,36 @@
-<h1 style="color:orange">Burgers app!</h1>
-<h2 style =>Whats your favoirte burger?<img src="../public/images/burger.png" alt="../public/images/burger.png"></h2>
-
-
-<ul>
-    {{#each burger}}
-    {{#unless munch}}
-    {{> burger/burger-block munch=true}}
-    {{/unless}}
-    {{/each}}
-</ul>
-
-<h2>Yummy Burgers!</h2>
+<div class="text-center">
+    <h1 style="background-color:orange""text-align:center">Burgers app!</h1>
+    <h2 style="text-align:center"> Whats your favoirte burger?</h2>
+    <img src="/css/burger2.png" alt="Burger">
 
 
 
-<h2>Add a Burger</h2>
-<form class="create-form">
 
-    <div class="form-group">
-        <label for="bg">Name of Burger</label>
-        <input type="text" id="ca" name="name">
-    </div>
+    <ul>
+        {{#each burger}}
+        {{#unless munch}}
+        {{> burger/burger-block munch=true}}
+        {{/unless}}
+        {{/each}}
+    </ul>
 
-    <div class="form-group">
-        <label for="munch">Hungry?</label><br>
-        <input type="radio" name="hungry" value="1" checked> Hungry!<br>
-        <input type="radio" name="hungry" value="0"> Yup
-    </div>
 
-    <button type="submit">Add Burger</button>
-</form>
+
+
+    <h2>Add a Burger</h2>
+    <form class="create-form">
+
+        <div class="form-group">
+            <label for="bg">Name of Burger</label>
+            <input type="text" id="ca" name="name">
+        </div>
+
+        <div class="form-group">
+            <label for="munch">Hungry?</label><br>
+            <input type="radio" name="hungry" value="1" checked> Hungry!<br>
+            <input type="radio" name="hungry" value="0"> Yup
+        </div>
+
+        <button type="submit">Add Burger</button>
+    </form>
+</div>
