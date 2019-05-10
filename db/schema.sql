@@ -7,7 +7,7 @@ CREATE TABLE burgers
     id INT PRIMARY KEY NOT NULL
     AUTO_INCREMENT,
 burger_name VARCHAR
-    (10) NOT NULL,
+    (50) NOT NULL,
 devoured BOOLEAN DEFAULT false
 );
 -- when entered mysql -u root -p says error when password enter. then typed in use mysql;

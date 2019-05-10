@@ -9,7 +9,7 @@ if (process.env.JAWS_DB_URL) {
     host: "localhost",
     port: 3306,
     // socketPath: "/tmp/mysql.sock",
-    user: "root",
+    user: "emma",
     password: "password",
     database: "burgers_db"
   });
